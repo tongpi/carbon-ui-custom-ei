@@ -91,6 +91,7 @@
     <title><tiles:getAsString name="title"/></title>
     <%}%>
     <link href="<%=globalCSS%>" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../admin/css/customizations.css" rel="stylesheet" type="text/css" media="all" />
 <%
 	Object param = session.getAttribute("authenticated");
 	if (param != null && (Boolean) param) {
