@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gds.ei</groupId>
+	<artifactId>carbon-ui-custom-ei</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>carbon-ui-custom-ei</name>
+	<modules>
+		<module>modules/org.wso2.carbon.ui_fragment</module>		
+		<module>modules/org.wso2.carbon.ui_patch</module>
+	</modules>
+	<properties>
+		<CARBON.UI.VERSION.NUMBER>4.4.36</CARBON.UI.VERSION.NUMBER>
+	</properties>
+</project>
